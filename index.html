@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="#">
+        <div>
+          <p>Город</p>
+          <select name="cities" id="cities-select"></select>
+        </div>
+        <div>
+          <p>Цех</p>
+          <select name="shops" id="shops-select"></select>
+        </div>
+        <div>
+          <p>Сотрудник</p>
+          <select name="workers" id="workers-select"></select>
+        </div>
+        <div>
+          <p>Бригада</p>
+          <select name="brigades" id="brigades-select"></select>
+        </div>
+        <div>
+          <p>Смена</p>
+          <p>
+            <input
+              tabindex="4"
+              checked=""
+              name="work-shift"
+              value="first"
+              type="radio"
+            />Первая
+          </p>
+          <p>
+            <input
+              tabindex="4"
+              name="work-shift"
+              value="second"
+              type="radio"
+            />Вторая
+          </p>
+        </div>
+        <div>
+          <button id="btn-send-cookie">Отправить в cookie</button>
+        </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
